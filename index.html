@@ -1,0 +1,347 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Intro To Tableau</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/blood.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+
+					<h3>Intro To Tableau</h3> with Parikshit Gupta<br> founder AT parikshitgupta dot in<br> @parikshitgupta.in
+			<br>
+			<a href="http://parikshitgupta.in">More on me and my work</a><br>
+				</section>
+				<section>
+				<section>
+					<h3>Get Ready!</h3>
+					<p>Visit <br><a href ="https://github.com/parikshitgupta1/intro-to-tableau">
+						https://github.com/parikshitgupta1/intro-to-tableau</a></p>
+						<p>This is where you will find all the resources for today's lesson. Bookmark this page! It is also where you will find a link to download the files and datasets we will be working with.</p>
+				</section>
+
+<section>
+	<h3>Download Tableau</h3>
+	<p>If you haven't done so already, download Tableau.</p>
+	If you have an .edu address: <a href ="http://tableau.com/academic/students">tableau.com/academic/students</a><br>
+	If you don't have an .edu address, the free trial is here: <a href="https://www.tableau.com/products/desktop/download">https://www.tableau.com/products/desktop/download</a>
+
+</section>
+</section>
+<section>
+<section><h3>A Tour of Tableau</h3></section>
+<section><H3>The Start Page And Connecting To Data</H3></section>
+<section><H3>The Data Pane</H3></section>
+<section><H3>Dimensions And Measures</H3></section>
+<section><H3>"Shelves" and "Pills"</H3></section>
+<section><H3>Marks</H3></section>
+<section><H3>Show Me</H3></section>
+<section><H3>Things Tableau Is Good For, And Things Tableau Is Not Good For</H3></section>
+</section>
+
+
+<section>
+	<section><h3>Hands On #1: NPR Map</h3></section>
+	<section>
+		<H4>Instructions and Data Files</H4>
+		Instructions and data files for the hands-on portion of this talk
+		can be found here: <br>
+		<a href ="https://parikshitgupta1.github.io/tableau/tech/2020/04/01/scrape-to-map-tableau-tutorial.html">https://parikshitgupta1.github.io/tableau/tech/2020/04/01/scrape-to-map-tableau-tutorial.html</a>
+	</section>
+<section><H3>Scraping</H3></section>
+<section><H3>Filtering</H3></section>
+<section><H3>Color</H3></section>
+<section><H3>Geocoding and Its Discontents</H3></section>
+</section>
+
+
+</section>
+
+<section>
+				<section>
+					<h3>A Brief History Of 5,000 Years of Data Visualization</h3>
+				</section>
+
+<section>
+	<h6>3500 BCE</h6>
+	<img src = "images_rightsize/cuneiform-tablet.png">
+</section>
+
+<section>
+	<img src = "images_rightsize/treemap.png">
+</section>
+
+<section>
+		<h6>3100 BCE</h6>
+	<img src = "images_rightsize/stonehenge.png">
+</section>
+
+	<section>
+			<h6>500 BCE</h6>
+		<img src = "images_rightsize/roundmap.png">
+	</section>
+
+		<section>
+				<h6>1525 CE</h6>
+			<img src = "images_rightsize/first-timeline.png">
+		</section>
+
+		<section>
+				<h6>1821 BCE</h6>
+			<img src = "images_rightsize/playfair-column-chart.png">
+		</section>
+
+		<section>
+			<img src = "images_rightsize/playfair-pie-chart.png">
+		</section>
+
+		<section>
+				<h6>1855 CE</h6>
+			<img src = "images_rightsize/coxcomb.png">
+		</section>
+
+		<section>
+				<h6>1875 CE</h6>
+			<img src = "images_rightsize/3d-chart-1879.png">
+		</section>
+		<section>
+				<h6>1963 CE</h6>
+			<img src = "images_rightsize/sketchpad-mit-1963.png">
+		</section>
+		<section>
+				<h6>1970 CE</h6>
+			<img src = "images_rightsize/IBM-2250-1970.png">
+		</section>
+
+
+				<section>
+					<h3>Thinking Visually</h3>
+				</section>
+
+				<section>
+					<img src = "images_rightsize/cleveland-chart.png">
+				</section>
+
+				<section>
+					<img src = "images_rightsize/pie-chart-right.png">
+				</section>
+
+				<section>
+					<img src = "images_rightsize/pie-chart-wrong.png">
+				</section>
+
+				<section>
+					<img src = "images_rightsize/bar-chart-bad.png">
+				</section>
+
+				<section>
+					<img src = "images_rightsize/bar-chart-good.png">
+				</section>
+
+				<section>
+					<img src = "images_rightsize/too-many-lines.png">
+				</section>
+
+				<section>
+					<img src = "images_rightsize/bar-chart-bad.png">
+				</section>
+
+				<section>
+					<img src = "images_rightsize/bar-chart-grouping.png">
+				</section>
+
+				<section>
+					<img src = "images_rightsize/sparklines.png">
+				</section>
+
+				<section>
+					<img src = "images_rightsize/cleveland-chart.png">
+				</section>
+
+				<section>
+					<img src = "images_rightsize/bubble-chart.png">
+				</section>
+
+				<section>
+					<img src = "images_rightsize/facebook-linechart.png">
+				</section>
+
+				<section>
+					<img src = "images_rightsize/treemap.png">
+				</section>
+
+				<section>
+					<img src = "images_rightsize/scatterplot.png">
+				</section>
+
+				<section>
+					<img src = "images_rightsize/node-chart.png">
+				</section>
+
+</section>
+
+
+				<section>
+					<section>
+
+					<h3>Hands-On #2: A Person In Five Charts</h3>
+					</section>
+
+					<section><H3>Chart Types</H3></section>
+					<section><H3>Different Datasets In The Same Workbook</H3></section>
+					<section><H3>Labels And Text</H3></section>
+					<section><H3>Sorting</H3></section>
+					<section><H3>Axes</H3></section>
+
+					</section>
+
+
+						<section>
+						<h3>Break</h3>
+						</section>
+
+						<section>
+							<section>
+
+							<h3>Hands-On #3: More Complex Mapping</h3>
+							<h5> ICE Expenditures</h5>
+							</section>
+
+							<section><H3>Marks: Size of Bubbles</H3></section>
+							<section><H3>User Controls: Search, Type, Location and More</H3></section>
+							<section><H3>Data Extracts</H3></section>
+							<section><H3>Tableau Reader and Tableau Online</H3></section>
+							</section>
+
+							<section>
+								<section>
+
+								<h3>Hands-On #4: Scatterplot</h3>
+								<h5>MCAS Test Scores v. Per-Pupil Expenditure</h5>
+								</section>
+
+								<section><H3>Tooltips</H3></section>
+								<section><H3>Calculated Fields</H3></section>
+
+
+								</section>
+
+
+<section>
+				<section>
+					<h3>Charts On The Dark Side</h3>
+					<p>How To Spot <br>Manipulative and Deceptive <br>Charts and Graphs</p>
+				</section>
+
+				<section>
+					<img src = "images_rightsize/nonzero-one.png">
+				</section>
+
+				<section>
+					<img src = "images_rightsize/nonzero-two.png">
+				</section>
+
+				<section>
+					<img src = "images_rightsize/scale-one.png">
+				</section>
+
+				<section>
+					<img src = "images_rightsize/scale-two.png">
+				</section>
+
+				<section>
+					<img src = "images_rightsize/fox-four.png">
+				</section>
+
+				<section>
+					<h3>Good Chart, Bad Chart</h3>
+				</section>
+
+				<section>
+					<img src = "images_rightsize/fox-one.png">
+				</section>
+
+				<section>
+					<img src = "images_rightsize/upside-down-axis.png">
+				</section>
+
+				<section>
+					<img src = "images_rightsize/bad-arc-chart.png">
+				</section>
+
+				<section>
+					<img src = "images_rightsize/75-million.png">
+				</section>
+
+				<section>
+					<img src = "images_rightsize/pac-man.png">
+				</section>
+
+
+
+</section>
+
+<!-- End Section Slides -->
+				<section>
+								<h3> Q&A</h3>
+							</section>
+							<section>
+								<h3>Thanks</h3>
+							</section>
+							<section>
+							<section>
+								<h3> Questions?</h3> Reach Parikshit Gupta<br> founder AT parikshitgupta dot in<br> @parikshitgupta.in
+								<br>
+								<a href="http://parikshitgupta.netlify.com">More on me and my work</a><br>
+								<a href="https://github.com/parikshitgupta1/intro-to-tableau">https://github.com/parikshitgupta1/intro-to-tableau</a>
+							</section>
+							<section>
+				<h3>How this presentation was made </h3>
+				This presentation was made using Reveal.js, a framework for making HTML slide presentations; Reveal.js is a Node.js application.
+				For more details, visit the repository for this application at <a href ="https://github.com/parikshitgupta1/intro-to-tableau">https://github.com/parikshitgupta1/intro-to-tableau</a><br>
+							</section>
+						</section>
+
+
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
